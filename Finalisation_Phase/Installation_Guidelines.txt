@@ -1,0 +1,22 @@
+# Installation Guidelines
+
+A. Requirement:
+
+This database requires MySQL Workbench to be set up. From the official page that corresponds to your operating system, download and install it: https://dev.mysql.com/downloads/workbench/
+
+B. Getting Your Database Connected:
+
+1. Locate the Connections area of MySQL Workbench, which is normally located on the left side of the interface.
+2. Press the button with the addition sign (+) to establish a new connection.
+3. Enter the hostname, username, and password for your connection.
+4. Give your connection a catchy name
+5. Make sure the data is correct by choosing "Test Connection." After the validation is complete, click "OK" to save the configuration.Installing and setting up the project:
+
+c. Installing and setting up the project:
+
+1. Go to https://github.com/CRMawande/airbnb_datamart_iubh.git to access the project's GitHub repository.
+2. To obtain the project files in ZIP format, go to the "Code" section and choose "Download ZIP."
+3. Extract the ZIP file after downloading, then go to the Finalization directory.
+4. Look for the airbnb_schema.sql file. Run this file in your MySQL environment to create the Airbnb database schema. (Execution instructions may differ based on how your MySQL Workbench is configured.)
+5. Once the schema is created, repeat the execution process for the airbnb_triggers.sql and airbnb_get_total_booking_price_function.sql files. These files establish triggers and functions essential for your database.
+6. Once you've finished these steps, your Airbnb database setup is complete!
