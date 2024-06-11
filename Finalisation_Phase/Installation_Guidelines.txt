@@ -1,4 +1,4 @@
-# Installation Guidelines
+# Installation Guidelines #
 
 A. Requirement:
 
@@ -18,5 +18,5 @@ c. Installing and setting up the project:
 2. To obtain the project files in ZIP format, go to the "Code" section and choose "Download ZIP."
 3. Extract the ZIP file after downloading, then go to the Finalization directory.
 4. Look for the airbnb_schema.sql file. Run this file in your MySQL environment to create the Airbnb database schema. (Execution instructions may differ based on how your MySQL Workbench is configured.)
-5. Once the schema is created, repeat the execution process for the airbnb_triggers.sql and airbnb_get_total_booking_price_function.sql files. These files establish triggers and functions essential for your database.
-6. Once you've finished these steps, your Airbnb database setup is complete!
+5. Now you can interact with the 'airbnb' and see the tables/views under airbnb > Schemas > Tables and/or Views.
+6. E.g. see the View of PropertyPerformanceView under Views.sql
